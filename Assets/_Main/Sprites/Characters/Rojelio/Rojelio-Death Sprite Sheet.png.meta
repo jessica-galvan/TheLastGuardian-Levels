@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: d2972ac526ccb04438fafbddae68ff1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -828250998357570592
+    second: Rojelio-Death Sprite Sheet_0
+  - first:
+      213: -5358362290263662928
+    second: Rojelio-Death Sprite Sheet_1
+  - first:
+      213: -7383637180838136437
+    second: Rojelio-Death Sprite Sheet_2
+  - first:
+      213: 9155909101496591918
+    second: Rojelio-Death Sprite Sheet_3
+  - first:
+      213: -8932890447921332853
+    second: Rojelio-Death Sprite Sheet_4
+  - first:
+      213: -1170178306547888055
+    second: Rojelio-Death Sprite Sheet_5
+  - first:
+      213: -2042799580719384766
+    second: Rojelio-Death Sprite Sheet_6
+  - first:
+      213: -7769654282152375287
+    second: Rojelio-Death Sprite Sheet_7
+  - first:
+      213: -8184908614845000565
+    second: Rojelio-Death Sprite Sheet_8
+  - first:
+      213: 796942962535666318
+    second: Rojelio-Death Sprite Sheet_9
+  - first:
+      213: 4695385366227671337
+    second: Rojelio-Death Sprite Sheet_10
+  - first:
+      213: -2109805411305226182
+    second: Rojelio-Death Sprite Sheet_11
+  - first:
+      213: -3218845035177032604
+    second: Rojelio-Death Sprite Sheet_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 114
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebc802fa167184f0800000000000000
+      internalID: -828250998357570592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 128
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be5cf603e543a5b0800000000000000
+      internalID: -5358362290263662928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 128
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85b6cdaa1d088990800000000000000
+      internalID: -7383637180838136437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 159
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26687651d2501f70800000000000000
+      internalID: 9155909101496591918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 0
+        width: 145
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d3b22577ff70480800000000000000
+      internalID: -8932890447921332853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 143
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9405852b701b2cfe0800000000000000
+      internalID: -1170178306547888055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 2
+        width: 126
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24777e3ca9486a3e0800000000000000
+      internalID: -2042799580719384766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 0
+        width: 152
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c07b48894ac2490800000000000000
+      internalID: -7769654282152375287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 0
+        width: 168
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b841125fafc596e80800000000000000
+      internalID: -8184908614845000565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 10
+        width: 144
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e829f2ce66f4f0b00800000000000000
+      internalID: 796942962535666318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 0
+        width: 151
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92951950d1c592140800000000000000
+      internalID: 4695385366227671337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 0
+        width: 134
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3084f9182778b2e0800000000000000
+      internalID: -2109805411305226182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojelio-Death Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 0
+        width: 134
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644e33ae7d5453d0800000000000000
+      internalID: -3218845035177032604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
