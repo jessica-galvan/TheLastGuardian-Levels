@@ -18,9 +18,9 @@ public class PlatformMovement : MonoBehaviour
     {
         transform.position += Vector3.up * actualSpeed * Time.deltaTime;
 
-        if (transform.position.y >= 1.8)
+        if (transform.position.y >= -1.8f)
             actualSpeed = -speed;
-        else if (transform.position.y <= -10)
+        else if (transform.position.y <= -10f)
             actualSpeed = speed;
 
     }
