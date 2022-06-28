@@ -6,11 +6,14 @@ using UnityEngine.UI;
 public class HUDManager : MonoBehaviour
 {
     [SerializeField] private UIBarController manaBar;
-    [SerializeField] private GameObject score;
-    [SerializeField] private Text scoreText;
+    [SerializeField] private GameObject plumeScore;
+    [SerializeField] private Text plumeScoreText;
+    [SerializeField] private GameObject rockScore;
+    [SerializeField] private Text rockScoreText;
     [SerializeField] private GameObject victoryScreen;
     [SerializeField] private GameOver gameOverScreen;
-    private bool isCollectableVisible;
+    private bool isPlumeCollectableVisible;
+    private bool isRockCollectableVisible;
 
     public static HUDManager instance;
     public GameOver GameOverScreen => gameOverScreen;
@@ -28,7 +31,8 @@ public class HUDManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
 
-        IsScoreVisible(false);
+        IsPlumeScoreVisible(false);
+        IsRockScoreVisible(false);
         victoryScreen.SetActive(false);
     }
     private void Start()
@@ -41,17 +45,30 @@ public class HUDManager : MonoBehaviour
         manaBar.UpdateLifeBar(currentMana, maxMana);
     }
 
-    public void UpdateScore(int newscore)
+    public void UpdatePlumeScore(int newscore)
     {
-        scoreText.text = $"x{newscore.ToString()}";
-        if (!isCollectableVisible)
-            IsScoreVisible(true);
+        plumeScoreText.text = $"x{newscore.ToString()}";
+        if (!isPlumeCollectableVisible)
+            IsPlumeScoreVisible(true);
     }
 
-    public void IsScoreVisible(bool value)
+    public void UpdateRockScore(int newscore)
     {
-        isCollectableVisible = value;
-        score.SetActive(value);
+        rockScoreText.text = $"x{newscore.ToString()}";
+        if (!isRockCollectableVisible)
+            IsRockScoreVisible(true);
+    }
+
+    public void IsPlumeScoreVisible(bool value)
+    {
+        isPlumeCollectableVisible = value;
+        plumeScore.SetActive(value);
+    }
+
+    public void IsRockScoreVisible(bool value)
+    {
+        isRockCollectableVisible = value;
+        rockScore.SetActive(value);
     }
 
     public void IsParticleSystemVisible(bool value)

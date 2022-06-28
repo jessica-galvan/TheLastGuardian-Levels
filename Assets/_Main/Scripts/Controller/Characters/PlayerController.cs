@@ -6,9 +6,10 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerMovementController))]
 public class PlayerController : Actor
 {
-    private int collectableCount;
+    private int plumeCount;
+    private int rockCount;
 
-    public int Collectables => collectableCount;
+    public int Collectables => plumeCount;
     public PlayerMovementController MovementController { get; private set; }
     public MagicalShooterController MagicController { get; private set; }
     public PhysicalAttackController PhysicalAttackController { get; private set; }
@@ -90,10 +91,16 @@ public class PlayerController : Actor
     #endregion
 
     #region Publicos
-    public void PickUpCollectable(int value)
+    public void PickUpPlumeCollectable(int value)
     {
-        collectableCount += value;
-        HUDManager.instance.UpdateScore(value);
+        plumeCount += value;
+        HUDManager.instance.UpdatePlumeScore(plumeCount);
+    }
+
+    public void PickUpRockCollectable(int value)
+    {
+        rockCount += value;
+        HUDManager.instance.UpdateRockScore(rockCount);
     }
 
     public bool CanHeadKill()

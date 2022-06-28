@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectableItemScript : BaseInteractable
+public class RockSpecialCollectable : BaseInteractable
 {
     public override void Interact()
     {
-        player.PickUpPlumeCollectable(_interactableStats.Coin);
+        player.PickUpRockCollectable(_interactableStats.Coin);
         Destroy();
     }
 }
