@@ -14,10 +14,8 @@ public class BanishPlatfform : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        print("bu");
         if (col.CompareTag("Player"))
         {
-            print("ok");
             _animator.SetTrigger("doBanish");
         }
     }
