@@ -12,7 +12,7 @@ public class Trap : BaseInteractable
         timer -= Time.deltaTime;
         if (canDamage && timer <= 0)
         {
-            player.LifeController.TakeDamage(_interactableStats.Damage);
+            player?.LifeController.TakeDamage(_interactableStats.Damage);
             timer = _interactableStats.DamageTimer;
         }
     }

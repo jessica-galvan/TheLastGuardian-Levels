@@ -1095,6 +1095,100 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e9fcff2ea4e8c4a85621a60512fb37, type: 3}
+--- !u!1001 &342357252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4554309091128009424, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: _title
+      value: Rune Rocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009424, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: _description
+      value: "It\xB4s a... shiny rock?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009425, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_Name
+      value: TutorialEvent - RuneRock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309092190048753, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309092190048753, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309092190048766, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 579a32691c84a104aa5981bfae77d69d, type: 3}
 --- !u!1001 &407442913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1290,6 +1384,100 @@ Transform:
   m_Father: {fileID: 1720156829}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &477613243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4554309091128009424, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: _title
+      value: Mana
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009424, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: _description
+      value: If  you are low on mana, this will recharge it
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009425, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_Name
+      value: TutorialEvent - Mana Recharge
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309092190048753, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309092190048753, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554309092190048766, guid: 579a32691c84a104aa5981bfae77d69d,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 579a32691c84a104aa5981bfae77d69d, type: 3}
 --- !u!1 &481237198
 GameObject:
   m_ObjectHideFlags: 0
@@ -5830,12 +6018,12 @@ PrefabInstance:
     - target: {fileID: 4126312622447556948, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 433.99997
+      value: 433.99994
       objectReference: {fileID: 0}
     - target: {fileID: 4126312622573081981, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 411.6991
+      value: 411.69894
       objectReference: {fileID: 0}
     - target: {fileID: 4126312622958294856, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
@@ -5860,7 +6048,7 @@ PrefabInstance:
     - target: {fileID: 7085947490688689382, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 433.99997
+      value: 433.99994
       objectReference: {fileID: 0}
     - target: {fileID: 7643866639340933122, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
@@ -5955,7 +6143,7 @@ PrefabInstance:
     - target: {fileID: 4554309091128009425, guid: 579a32691c84a104aa5981bfae77d69d,
         type: 3}
       propertyPath: m_Name
-      value: TutorialEvent
+      value: TutorialEvent - Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 4554309091128009438, guid: 579a32691c84a104aa5981bfae77d69d,
         type: 3}
