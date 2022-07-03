@@ -62,6 +62,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLife: 1
+  rewards:
+  - item: {fileID: 1798026372190034665, guid: 320b0b707ef605545859d37782170d9d, type: 3}
+    canDrop: 1
+  - item: {fileID: 6289768819908975510, guid: ea1b877b821120d428f1b5f56a817f5b, type: 3}
+    canDrop: 0
 --- !u!1 &2716739514779495582
 GameObject:
   m_ObjectHideFlags: 0
