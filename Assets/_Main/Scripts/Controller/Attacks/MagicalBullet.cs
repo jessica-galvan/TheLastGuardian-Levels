@@ -11,6 +11,7 @@ public class MagicalBullet : MonoBehaviour, IPooleable
     private Vector2 direction;
 
     public PooleableType Type => type;
+    public AttackStats AttackStats => _attackStats;
 
     public void Initialize(Transform shootingPoint, AttackStats attackStats, Transform target = null)
     {
@@ -35,8 +36,6 @@ public class MagicalBullet : MonoBehaviour, IPooleable
         if (canMove)
             transform.position += (Vector3) direction * _attackStats.SpellSpeed * Time.deltaTime;
 
-
-
         timer -= Time.deltaTime;
         if (timer <= 0)
             OnCollision();
@@ -51,7 +50,7 @@ public class MagicalBullet : MonoBehaviour, IPooleable
             OnCollision();
         }
 
-        if (collision.gameObject.layer == 10) //Si collisiona con ground layer...
+        if (collision.gameObject.layer == 14 || collision.gameObject.layer == 10) //Si collisiona con Ground o Obstacle Layer
             OnCollision();
     }
 

@@ -8,7 +8,8 @@ public class BouncingMushroom : MonoBehaviour
     [SerializeField] private AudioSource bounceSound;
     private Animator animatorController;
 
-    private void Awake() {
+    private void Awake() 
+    {
         animatorController = GetComponentInParent<Animator>();
     }
 
