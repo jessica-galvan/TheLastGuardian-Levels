@@ -17,7 +17,6 @@ public class HeadKillJump : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        print("collision");
         PlayerController player = collision.gameObject.GetComponent<PlayerController>();
         if (player != null && player.CanHeadKill())
         {
@@ -27,7 +26,6 @@ public class HeadKillJump : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("hola");
         PlayerController player = collision.gameObject.GetComponent<PlayerController>();
         if (player != null && player.CanHeadKill())
         {
