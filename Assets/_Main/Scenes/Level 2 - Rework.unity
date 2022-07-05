@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0.94000006, y: 0.79000044, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 10
+  m_CameraDistance: 15
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -695,7 +695,7 @@ MonoBehaviour:
   m_Follow: {fileID: 2128633792}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 3.13
+    OrthographicSize: 3.6713
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -716,7 +716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48015214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.2000003, y: -4.5599995, z: -10}
+  m_LocalPosition: {x: 4.26, y: -5.35, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4978436}
@@ -2967,7 +2967,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.13
+  orthographic size: 3.6713
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2991,7 +2991,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.2000003, y: -4.5599995, z: -10}
+  m_LocalPosition: {x: 4.26, y: -5.35, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2118039708}
@@ -11462,6 +11462,16 @@ PrefabInstance:
       propertyPath: m_UpdateMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4126312621592596612, guid: 41da1b15499bd74418a88168d1e75cdf,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -29.121521
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126312621975520904, guid: 41da1b15499bd74418a88168d1e75cdf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4126312621975520905, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
       propertyPath: victoryScreen
@@ -11615,7 +11625,7 @@ PrefabInstance:
     - target: {fileID: 4126312622447556948, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 433.99994
+      value: 433.99997
       objectReference: {fileID: 0}
     - target: {fileID: 4126312622573081981, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
@@ -11626,6 +11636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7085947490688689382, guid: 41da1b15499bd74418a88168d1e75cdf,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 433.99997
       objectReference: {fileID: 0}
     - target: {fileID: 7643866638818699460, guid: 41da1b15499bd74418a88168d1e75cdf,
         type: 3}
