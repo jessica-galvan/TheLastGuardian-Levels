@@ -561,4 +561,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adcdacf40b2ca2349b44077840f79289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBeKilled: 1
+  isTrigger: 0
+  _collider: {fileID: 6418086394440892857}
