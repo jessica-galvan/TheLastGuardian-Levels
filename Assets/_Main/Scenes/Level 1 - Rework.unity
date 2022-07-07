@@ -412,6 +412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heal
       objectReference: {fileID: 0}
+    - target: {fileID: 4643241683810020395, guid: a52a3bdb83f5a5a418d8a2c68e49d6ff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4862879415841106886, guid: a52a3bdb83f5a5a418d8a2c68e49d6ff,
         type: 3}
       propertyPath: m_RootOrder
@@ -1938,6 +1943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumPurpleMush
       objectReference: {fileID: 0}
+    - target: {fileID: 6233813976411407380, guid: fc27ef490f65f384f8d2e9a035e6850e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6233813976411407386, guid: fc27ef490f65f384f8d2e9a035e6850e,
         type: 3}
       propertyPath: m_RootOrder
@@ -3281,12 +3291,12 @@ PrefabInstance:
     - target: {fileID: 8471861321383496637, guid: ea1b877b821120d428f1b5f56a817f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.71
+      value: 27.17
       objectReference: {fileID: 0}
     - target: {fileID: 8471861321383496637, guid: ea1b877b821120d428f1b5f56a817f5b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.33
+      value: 6.43
       objectReference: {fileID: 0}
     - target: {fileID: 8471861321383496637, guid: ea1b877b821120d428f1b5f56a817f5b,
         type: 3}

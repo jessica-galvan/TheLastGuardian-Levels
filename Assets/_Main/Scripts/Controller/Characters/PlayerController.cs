@@ -88,6 +88,15 @@ public class PlayerController : Actor
         AudioManager.instance.PlayPlayerSound(PlayerSoundClips.Dead);
         OnDie?.Invoke(); //TODO: Fix Bug DeathAnimationOver invoke on player.
     }
+
+    protected void OnDestroy()
+    {
+        InputController.instance.OnMove -= OnMove;
+        InputController.instance.OnShoot -= OnShoot;
+        InputController.instance.OnJump -= OnJump;
+        InputController.instance.OnSprint -= OnSprint;
+        InputController.instance.OnPhysicalAttack -= OnPhysicalAttack;
+    }
     #endregion
 
     #region Publicos

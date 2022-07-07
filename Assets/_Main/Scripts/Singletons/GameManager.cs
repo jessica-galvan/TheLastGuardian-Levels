@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
         public bool isEnd;
     }
 
-    private List<ICommand> _events = new List<ICommand>();
+    //private List<ICommand> _events = new List<ICommand>();
 
     [Header("SceneNames")]
     [SerializeField] private List<Level> levels;
@@ -61,14 +61,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(_events.Count > 0)
-        {
-            for (int i = _events.Count - 1; i >= 0; i--) //EVENT QUEUE
-            {
-                _events[i].Do();
-                _events.RemoveAt(i);
-            }
-        }
+        //if (_events.Count == 0) return;
+
+        //for (int i = _events.Count - 1; i >= 0; i--) //EVENT QUEUE
+        //{
+        //    _events[i].Do();
+        //    _events.RemoveAt(i);
+        //}
     }
 
     public void Pause(bool value)
@@ -99,8 +98,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void AddEvent(ICommand command)
-    {
-        _events.Add(command);
-    }
+    //public void AddEvent(ICommand command)
+    //{
+    //    _events.Add(command);
+    //}
 }

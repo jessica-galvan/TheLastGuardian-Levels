@@ -82,9 +82,9 @@ public class MainMenu : MonoBehaviour
 
     private void OnClickQuitHandler()
     {
-        //Application.Quit();
-        quitCommand = new ApplicationQuitCommand();
-        GameManager.instance.AddEvent(quitCommand);
-        Debug.Log("Cerramos el juego");
+        Application.Quit();
+        //quitCommand = new ApplicationQuitCommand();
+        //GameManager.instance.AddEvent(quitCommand);
+        print("Cerramos el juego");
     }
 }
