@@ -22,13 +22,11 @@ public class PauseMenu : MonoBehaviour
 
     [Header("Victory")]
     [SerializeField] private Button returnMenuButton;
+    [SerializeField] private Button nextLevelButton;
 
     //Extras
     private bool isActive;
     private bool mainMenuActive;
-
-    private ApplicationQuitCommand quitCommand;
-    private LoadSceneCommand loadCommand;
 
     void Start()
     {
@@ -36,6 +34,8 @@ public class PauseMenu : MonoBehaviour
         GoBack();
         ExitMenu();
         ButtonsListeners();
+
+        nextLevelButton.gameObject.SetActive(!GameManager.instance.IsEndLevel);
     }
 
     private void CheckIfPause()
@@ -65,6 +65,7 @@ public class PauseMenu : MonoBehaviour
         goBackButton.onClick.AddListener(OnClickGoBackHandler);
         buttonMainMenu.onClick.AddListener(OnClickMenuHandler);
         returnMenuButton.onClick.AddListener(OnClickMenuHandler);
+        nextLevelButton.onClick.AddListener(OnClickNextLevelHandler);
     }
 
     private void Pause()
@@ -106,9 +107,12 @@ public class PauseMenu : MonoBehaviour
 
     private void OnClickMenuHandler()
     {
-        //SceneManager.LoadScene("MainMenu");
-        loadCommand = new LoadSceneCommand("MainMenu");
-        GameManager.instance.AddEvent(loadCommand);
+        SceneManager.LoadScene(GameManager.instance.MainMenuScene);
+    }
+
+    private void OnClickNextLevelHandler()
+    {
+        GameManager.instance.ChangeLevel();
     }
 
     private void OnClickGoBackHandler()
@@ -118,9 +122,7 @@ public class PauseMenu : MonoBehaviour
 
     private void OnClickQuitHandler()
     {
-        //Application.Quit();
-        quitCommand = new ApplicationQuitCommand();
-        GameManager.instance.AddEvent(quitCommand);
+        Application.Quit();
         Debug.Log("Se cierra el juego");
     }
 }

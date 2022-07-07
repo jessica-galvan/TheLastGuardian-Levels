@@ -28,7 +28,6 @@ public class MainMenu : MonoBehaviour
 
     private bool mainMenuCheck;
     private ApplicationQuitCommand quitCommand;
-    private LoadSceneCommand loadCommand;
 
     void Awake()
     {
@@ -54,9 +53,7 @@ public class MainMenu : MonoBehaviour
 
     private void OnClickPlayHandler()
     {
-        //SceneManager.LoadScene(gameSceneName);
-        loadCommand = new LoadSceneCommand(gameSceneName);
-        GameManager.instance.AddEvent(loadCommand);
+        GameManager.instance.ChangeLevel();
     }
 
     private void OnClickHelpHandler()
