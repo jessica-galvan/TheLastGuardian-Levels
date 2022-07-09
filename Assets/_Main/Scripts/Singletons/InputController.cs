@@ -8,6 +8,8 @@ public class InputController : MonoBehaviour
     public static InputController instance;
 
     #region KeyCodes
+    [SerializeField] private KeyCode previousLevel = KeyCode.F1;
+    [SerializeField] private KeyCode nextLevel = KeyCode.F2;
     private string horizontalAxis = "Horizontal";
     private KeyCode jump = KeyCode.Space;
     private KeyCode shoot = KeyCode.Mouse0;
@@ -25,6 +27,8 @@ public class InputController : MonoBehaviour
     public Action OnJump;
     public Action OnSprint;
     public Action<float> OnMove;
+    public Action OnChangeToPreviousLevel;
+    public Action OnChangeToNextLevel;
     #endregion
 
     #region Unity
@@ -44,6 +48,7 @@ public class InputController : MonoBehaviour
     private void Update()
     {
         CheckPause();
+        CheckSkipLevel();
 
         if (!GameManager.instance.IsGameFreeze)
         {
@@ -96,6 +101,14 @@ public class InputController : MonoBehaviour
     {
         if (Input.GetKeyDown(sprint))
             OnSprint?.Invoke();
+    }
+
+    private void CheckSkipLevel() 
+    {
+        if (Input.GetKeyDown(previousLevel))
+            OnChangeToPreviousLevel?.Invoke();
+        if (Input.GetKeyDown(nextLevel))
+            OnChangeToNextLevel?.Invoke();
     }
     #endregion
 }

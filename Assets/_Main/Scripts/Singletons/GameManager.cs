@@ -14,8 +14,6 @@ public class GameManager : MonoBehaviour
         public bool isEnd;
     }
 
-    //private List<ICommand> _events = new List<ICommand>();
-
     [Header("SceneNames")]
     [SerializeField] private List<Level> levels;
     private int currentIndexLevel;
@@ -59,15 +57,10 @@ public class GameManager : MonoBehaviour
         } 
     }
 
-    private void Update()
+    private void Start()
     {
-        //if (_events.Count == 0) return;
-
-        //for (int i = _events.Count - 1; i >= 0; i--) //EVENT QUEUE
-        //{
-        //    _events[i].Do();
-        //    _events.RemoveAt(i);
-        //}
+        InputController.instance.OnChangeToPreviousLevel += ChangeToPreviousLevel;
+        InputController.instance.OnChangeToNextLevel += ChangeToNextLevel;
     }
 
     public void Pause(bool value)
@@ -98,8 +91,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //public void AddEvent(ICommand command)
-    //{
-    //    _events.Add(command);
-    //}
+    private void ChangeToPreviousLevel()
+    {
+        if (currentIndexLevel == 0 || currentIndexLevel == 1) return; //if it´s the first level or menu...
+        currentIndexLevel--;
+        SceneManager.LoadScene(levels[currentIndexLevel].levelName);
+    }
+
+    private void ChangeToNextLevel()
+    {
+        if (levels[currentIndexLevel].isEnd) return;
+        ChangeLevel();
+    }
 }
