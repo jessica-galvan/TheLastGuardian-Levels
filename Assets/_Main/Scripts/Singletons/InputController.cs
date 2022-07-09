@@ -55,8 +55,8 @@ public class InputController : MonoBehaviour
             CheckMovement();
             CheckJump();
             CheckShoot();
-            CheckSprint();
             CheckPhysicalAttack();
+            //CheckSprint();
             //CheckDash();
         }
     }
