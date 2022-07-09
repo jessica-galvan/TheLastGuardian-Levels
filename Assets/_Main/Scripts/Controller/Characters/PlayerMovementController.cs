@@ -14,16 +14,34 @@ public class PlayerMovementController : MonoBehaviour
     private Rigidbody2D rbody;
     private bool isSprinting;
     private bool facingRight = true;
+    private float sqrMaxVelocity;
 
     private void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
     }
 
+    private void FixedUpdate()
+    {
+        if (_actorStats == null) return;
+
+        var v = rbody.velocity;
+        // Clamp the velocity, if necessary
+        // Use sqrMagnitude instead of magnitude for performance reasons.
+        // Equivalent to: rigidbody.velocity.magnitude > maxVelocity, but faster.
+        if (v.sqrMagnitude > sqrMaxVelocity)
+        { 
+          // Vector3.normalized returns this vector with a magnitude of 1.
+          // This ensures that we're not messing with the direction of the vector, only its magnitude.
+            rbody.velocity = v.normalized * _actorStats.JumpForce;
+        }
+    }
+
     public void SetStats(ActorStats stats)
     {
         _actorStats = stats;
         currentSpeed = _actorStats.OriginalSpeed;
+        sqrMaxVelocity = _actorStats.JumpForce * _actorStats.JumpForce;
     }
 
     public void Move(Vector2 direction)
