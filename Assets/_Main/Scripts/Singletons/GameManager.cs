@@ -63,6 +63,12 @@ public class GameManager : MonoBehaviour
         InputController.instance.OnChangeToNextLevel += ChangeToNextLevel;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F1)) SceneManager.LoadScene(levels[1].levelName);
+        else if (Input.GetKeyDown(KeyCode.F2)) SceneManager.LoadScene(levels[2].levelName);
+    }
+
     public void Pause(bool value)
     {
         IsGameFreeze = value;
